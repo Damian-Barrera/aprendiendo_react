@@ -1,0 +1,49 @@
+ .wrap {
+     width: 300px;
+     height: auto;
+     margin: auto;
+     padding-bottom: 20px;
+     background-color: rgb(156, 194, 252);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 40px;
+ }
+
+ .contador {
+     text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: azure;
+     font-size: 4.5rem;
+
+ }
+
+ .div-container .add {
+     width: 180px;
+     height: 30px;
+     border-radius: 20px;
+     border: none;
+     background-color: #000fdd;
+     color: azure;
+     font-size: 20px;
+     cursor: pointer;
+ }
+
+ .div-container .add:hover {
+     background-color: #0058dd;
+     color: #00dd63;
+ }
+
+ .reset {
+     width: 100px;
+     height: 20px;
+     margin-top: 10px;
+     border-radius: 20px;
+     border: none;
+     background-color: #dd0030;
+     color: azure;
+     font-size: 12px;
+     cursor: pointer;
+ }
+ 
+ 
