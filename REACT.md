@@ -69,3 +69,5 @@ Codigo que se ejecutara.
   Ejemplo:
    <NavLink to="departamentos" > Departamentos </NavLink>
    <Link to="http://www.google.com" > Google! </Link>
+
+  -Todas las rutas deben ser declaradas en Routes. Y este a la vez puede ser un componente aparte, para asi poder tener un mejor control y organizacion de las rutas. 

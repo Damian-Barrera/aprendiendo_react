@@ -4,8 +4,7 @@ import { NavBar } from "./NavBar"
 export const Imagen = ({ imagenUrl, id }) => {
 
   const nombre = id.toUpperCase()
-  console.log(id)
-
+ 
   return (
     <>
       <h2>  {nombre } </h2>
