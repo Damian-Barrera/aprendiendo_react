@@ -26,6 +26,7 @@
      font-size: 1.6rem;
      margin: 5px 0;
      transition: all 300ms;
+     text-transform: capitalize;
  }
 
  nav a:hover {
@@ -77,4 +78,10 @@
 
  .pics img {
      min-height: 400px;
+ }
+
+ .title-name {
+    color: #28ca66;
+    font-size: 1.6rem;
+    text-transform: capitalize;
  }

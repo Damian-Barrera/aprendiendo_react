@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Jessica = () => {
+const Jessica = () => {
   return (
-    <></>
+    <div>
+      Contenido de Jessica
+    </div>
   )
 }
+
+export default Jessica
