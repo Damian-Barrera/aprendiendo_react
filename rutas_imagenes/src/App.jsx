@@ -2,9 +2,9 @@
 import { NavBar } from './components/NavBar'
 import { Imagen } from './components/Imagen'
 import { useState, useEffect } from 'react'
-import Rutas from './Routes/Rutas'
 
- 
+
+
 //hacer algo para que en el titulo de html pueda modificar con informacion del useState. 
 
 
@@ -12,7 +12,6 @@ function App() {
 
   const [urlImg, setUrlImg] = useState('')
   const [id, setID] = useState('')
-
 
 
   const setUrl = (url, id) => {
@@ -35,10 +34,7 @@ function App() {
           <Imagen imagenUrl={urlImg} id={id} />
         </div>
       </div>
-      <div className="fotos">
-        <Rutas />
-      </div>
-     </>
+    </>
   )
 }
 

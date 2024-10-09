@@ -1,5 +1,5 @@
 {
-  "name": "rutas_imagenes",
+  "name": "volver_atras",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,6 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-image-gallery": "^1.3.0",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
