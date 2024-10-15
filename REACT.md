@@ -82,6 +82,51 @@ const handleBack = () => {navigate(-1) }
 -Luego llamar a la funcion que puede ser en un button, o icono, o lo que sea, con onClick
 <button onClick={handleBAck} > <button>
 
+
+## useContext
+-Este hook sirve para pasar datos entre varios componentes sin tener que pasar props de uno en uno. 
+
+-Puedo crear un componente aparte para crear la funcion que va a iniciar el contexto. Este componente puede ser un simple archivo js. 
+  import { createContext } from 'react'children_props
+  const NombreFuncion = createContext(); Este nombre de funcion se recomienda iniciar con  mayuscula. 
+
+-En el app.jsx o en el archivo padre donde engloba a los distintos componentes que usaran el contexto, se debe llamar a la funcion antes creada y asignarle el provider y el valor que usaran los hijos. Todos los componentes que esten dentro del Provider son los que podran tener acceso a los datos que se envien.
+
+
+   import {NombreFuncion} from 'ruta_donde_esté'
+
+   <NombreFuncion.Provider value=  {valor_que_se_le_pasara}> 
+
+   Ejemplo:
+
+                  function App() {
+                  const user = {nombre:'Damian', edad: 37}
+                    
+                    return (
+                      <>
+                        <h1>UseContext</h1>
+                        <UsuarioContext.Provider  value= {user}>
+                          <Perfil />
+                        </UsuarioContext.Provider>
+                      </>
+                    )
+                  }
+
+- Ya dentro del componente que usara el contexto se importara el useContext y a funcion que tiene el contexto.
+  import {useContext} from 'react'
+  import {NombreFuncion} from 'ruta.js'
+
+- Y se llama al contexto : 
+  const variable = useContext( NombreFuncion )
+
+-Dentro del return hago uso de esa variable:
+  return (
+    Hola, yo soy el contexto: {variable} En caso de que sea un objeto : variable.dato1
+  )  
+
+
+  
+
 ## Formularios
 
 -En formularios, en los input se debe reemplazar el for por htmlFor y en vez de id lleva name .
