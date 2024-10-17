@@ -1,10 +1,19 @@
-import { Contador } from "./modules/Contador"
+import { useRef } from "react"
 
+ 
 function App() {
+
+  const inputRef = useRef()
+  
+  const enfocar = () => {
+    inputRef.current.style.backgroundColor='#cbff';
+  }
 
   return (
     <>
-      <Contador />
+      <h1>UseRef!</h1>
+      <input type="text" name="" ref={inputRef} placeholder="Escribir aquí"/>
+      <button onClick={enfocar} >Enfocar input</button>
     </>
   )
 }
