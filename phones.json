@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "marca": "Apple",
+    "modelo": "iPhone 13",
+    "camara_px": "12MP",
+    "sistema_operativo": "iOS 15",
+    "bateria_mAh": 3095,
+    "precio": 799,
+    "descripcion": "El último iPhone con cámara triple y pantalla Super Retina XDR.",
+    "url": "https://catapu.com/wp-content/uploads/2024/01/13-1.jpg"
+  },
+  {
+    "id": 2,
+    "marca": "Samsung",
+    "modelo": "Galaxy S21",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4000,
+    "precio": 699,
+    "descripcion": "Smartphone de alta gama con pantalla Dynamic AMOLED.",
+    "url": "https://www.rodo.com.ar/media/catalog/product/cache/855090a5c67e45b26c9e0d345e7592dc/g/a/galaxy_s21_fe_5g_128gb_grafito_5.jpg"
+  },
+  {
+    "id": 3,
+    "marca": "Google",
+    "modelo": "Pixel 6",
+    "camara_px": "50MP",
+    "sistema_operativo": "Android 12",
+    "bateria_mAh": 4614,
+    "precio": 599,
+    "descripcion": "Pixel con procesamiento avanzado y cámara de alta calidad.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefHjsrWag0C7xOd2g8QfQ6b5tdaUjdbZHDQ&s"
+  },
+  {
+    "id": 4,
+    "marca": "Xiaomi",
+    "modelo": "Mi 11",
+    "camara_px": "108MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4600,
+    "precio": 749,
+    "descripcion": "Teléfono insignia con cámara de 108MP y pantalla AMOLED.",
+    "url": "https://ar.celulares.com/fotos/xiaomi-mi-11-ultra-90649-g-alt.jpg"
+  },
+  {
+    "id": 5,
+    "marca": "OnePlus",
+    "modelo": "9 Pro",
+    "camara_px": "48MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4500,
+    "precio": 969,
+    "descripcion": "Dispositivo premium con carga rápida y cámara Hasselblad.",
+    "url": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9-pro/Morning%20mist-gallery.png"
+  },
+  {
+    "id": 6,
+    "marca": "Motorola",
+    "modelo": "Edge 20",
+    "camara_px": "108MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4000,
+    "precio": 499,
+    "descripcion": "Smartphone ligero con pantalla OLED.",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_637284-MLU77511624069_072024-O.webp"
+  },
+  {
+    "id": 7,
+    "marca": "Sony",
+    "modelo": "Xperia 1 III",
+    "camara_px": "12MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4500,
+    "precio": 1199,
+    "descripcion": "Pantalla 4K OLED y sistema de cámara profesional.",
+    "url": "https://www.clarin.com/2021/04/14/b1dlW6HZ8_1200x0__1.jpg"
+  },
+  {
+    "id": 8,
+    "marca": "LG",
+    "modelo": "Velvet",
+    "camara_px": "48MP",
+    "sistema_operativo": "Android 10",
+    "bateria_mAh": 4300,
+    "precio": 599,
+    "descripcion": "Diseño elegante con pantalla P-OLED.",
+    "url": "https://i.blogs.es/ee0c5a/lg-velvet-02/450_1000.jpg"
+  },
+  {
+    "id": 9,
+    "marca": "Nokia",
+    "modelo": "8.3 5G",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 10",
+    "bateria_mAh": 4500,
+    "precio": 699,
+    "descripcion": "Compatible con 5G y cámara de alta resolución.",
+    "url": "https://ar.celulares.com/fotos/nokia-8-3-5g-86240-m.jpg"
+  },
+  {
+    "id": 10,
+    "marca": "Asus",
+    "modelo": "ROG Phone 5",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 6000,
+    "precio": 999,
+    "descripcion": "Teléfono gamer con pantalla AMOLED y gran batería.",
+    "url": "https://bitwares.net/wp-content/uploads/2021/03/ASUS-ROG-Phone-5-colores.jpg"
+  },
+  {
+    "id": 11,
+    "marca": "Huawei",
+    "modelo": "P40 Pro",
+    "camara_px": "50MP",
+    "sistema_operativo": "Android 10",
+    "bateria_mAh": 4200,
+    "precio": 899,
+    "descripcion": "Fotografía avanzada con cámara Leica.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyfa9NIBfY87jQGRRmfzT6L7wKsZmWOgU43w&s"
+  },
+  {
+    "id": 12,
+    "marca": "Realme",
+    "modelo": "GT Master",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4300,
+    "precio": 499,
+    "descripcion": "Diseño inspirado en maletas con rendimiento potente.",
+    "url": "https://www.undertec.store/wp-content/uploads/2021/09/realme-gt-master-undertaker-tec-store-2-500x500.jpg"
+  },
+  {
+    "id": 13,
+    "marca": "Vivo",
+    "modelo": "X60 Pro",
+    "camara_px": "48MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4200,
+    "precio": 699,
+    "descripcion": "Teléfono con cámara ZEISS y estabilización óptica.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFUQEk6sJvX_fqhvIUZ6SyWpa9-IgCN4YzJA&s"
+  },
+  {
+    "id": 14,
+    "marca": "Oppo",
+    "modelo": "Find X3 Pro",
+    "camara_px": "50MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4500,
+    "precio": 1149,
+    "descripcion": "Pantalla AMOLED y sistema de cámara avanzado.",
+    "url": "https://www.teknofilo.com/wp-content/uploads/2021/03/Analisis-OPPO-Find-X3-Pro-Teknofilo-1-1200x797.jpg"
+  },
+  {
+    "id": 15,
+    "marca": "TCL",
+    "modelo": "20 Pro 5G",
+    "camara_px": "48MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4500,
+    "precio": 499,
+    "descripcion": "Teléfono con pantalla curva AMOLED.",
+    "url": "https://www.tcl.com/usca/content/dam/tcl/products/mobile/20Pro5G_TMT_Special.png"
+  },
+  {
+    "id": 16,
+    "marca": "ZTE",
+    "modelo": "Axon 30 Ultra",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4600,
+    "precio": 749,
+    "descripcion": "Sistema de cámara cuádruple con zoom avanzado.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxO3O--G0YNt_vVwePE5qmgyWVJh8OMxvXA&s"
+  },
+  {
+    "id": 17,
+    "marca": "Honor",
+    "modelo": "Magic3 Pro",
+    "camara_px": "50MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4600,
+    "precio": 1099,
+    "descripcion": "Smartphone premium con procesador Snapdragon.",
+    "url": "https://ar.celulares.com/fotos/hihonor-magic-3-pro-92480-g-alt.jpg"
+  },
+  {
+    "id": 18,
+    "marca": "Lenovo",
+    "modelo": "Legion Duel 2",
+    "camara_px": "64MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 5500,
+    "precio": 949,
+    "descripcion": "Teléfono gamer con ventiladores duales.",
+    "url": "https://cdn.comprasmartphone.com/vOEZ9KnS5fQ-g1WcoolCnJ6Sn0Y=/640x0/smart/filters:quality(75):format(webp)/storage.comprasmartphone.com/smartphones/lenovo-legion-phone-duel-2.png"
+  },
+  {
+    "id": 19,
+    "marca": "Alcatel",
+    "modelo": "1S (2021)",
+    "camara_px": "13MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4000,
+    "precio": 149,
+    "descripcion": "Teléfono económico con pantalla IPS.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPU2zuy71_xtz3IXxBSWpbATjOUx6S1HUzyQ&s"
+  },
+  {
+    "id": 20,
+    "marca": "Meizu",
+    "modelo": "18 Pro",
+    "camara_px": "50MP",
+    "sistema_operativo": "Android 11",
+    "bateria_mAh": 4500,
+    "precio": 899,
+    "descripcion": "Pantalla curva AMOLED y cámara avanzada.",
+    "url": "https://ar.celulares.com/fotos/meizu-18-pro-89962-g-alt.jpg"
+  }
+]

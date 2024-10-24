@@ -8,7 +8,7 @@ const user = {nombre:'Damian', edad: 37}
   return (
     <>
       <h1>UseContext</h1>
-      <UsuarioContext.Provider  value= {user}>
+      <UsuarioContext.Provider   value= {user}> 
         <Perfil />
       </UsuarioContext.Provider>
      </>

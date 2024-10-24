@@ -1,0 +1,29 @@
+.precio-comprar{
+    /* border: 1px solid red; */
+    margin: 25px 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.precio-comprar .btn {
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    color: aliceblue;
+    background-color: #000;
+    border: none;
+    outline: none;
+    font-family: Arial;
+}
+
+.precio-comprar .btn:hover {
+    cursor: pointer;
+    background-color: #272626;
+    color: #e7edf3;
+}
+

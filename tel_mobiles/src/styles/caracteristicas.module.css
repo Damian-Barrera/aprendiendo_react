@@ -1,0 +1,25 @@
+.caracteristicas {
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+.caracteristicas ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.caracteristicas ul li {
+    padding: 2px 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #edf4f7;
+    transition: all 200ms linear;
+}
+
+.caracteristicas ul li:hover{
+    background-color: #d3d8da;
+    
+}
