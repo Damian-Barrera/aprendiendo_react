@@ -1,0 +1,38 @@
+ a{
+    text-decoration: none;
+ }
+
+ td {
+    padding: 0 10px;
+    background-color: #dad077;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    }
+
+.trash, .edit  {
+    cursor: pointer;
+}
+
+td:hover {
+    /* background-color: #d3da77; */
+    box-shadow: inset 0 0 10px #f5f858;
+}
+
+.fa-address-card{
+  margin-left: 10px;
+}
+
+.newContact {
+    color: #0000ff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lucida sans';
+    display: flex;
+    align-items: center;
+}
+
+.newContact:hover {
+    cursor: pointer;
+    color: #3b3bff;
+}    
