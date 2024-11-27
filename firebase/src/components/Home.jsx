@@ -38,17 +38,17 @@ const Home = () => {
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
             confirmButtonText: "Si, Eliminar!"
-          }).then((result) => {
+        }).then((result) => {
             if (result.isConfirmed) {
                 //LLamar a la funcion que va a eliminar
                 borrarContacto(id)
-              Swal.fire({
-                title: "Eliminado!",
-                text: "Su archivo ha sido eliminado con exito.",
-                icon: "success"
-              });
+                Swal.fire({
+                    title: "Eliminado!",
+                    text: "Su archivo ha sido eliminado con exito.",
+                    icon: "success"
+                });
             }
-          });
+        });
     }
 
 
@@ -68,7 +68,7 @@ const Home = () => {
                 </div>
             </Link>
             <h1>Contactos</h1>
-            <table>
+            <table className='tabla'>
                 <thead>
                     <tr>
                         <th>Nombre</th>
