@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100%;
+  margin-left: 10px;
+  color: rgb(18, 168, 168);
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gear {
+  margin-left: 10px;
+  color: #437ce6;
+}
+
+.facebook {
+  margin-left: 10px;
+  color: #25abcc;
+}
+
+.instagram {
+  margin-left: 10px;
+  color: #bd1313;
+}
+.whatsapp {
+  margin-left: 10px;
+  color: #068511;
+}
+
+.telegram {
+  margin-left: 10px;
+  color: #0088cc;
+}
+
+.github {
+  margin-left: 10px;
+  color: grey;
+}
