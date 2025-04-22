@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Dancing";
+  src: url("assets/DancingScript-Bold.ttf");
+}
+@font-face {
+  font-family: "Neue";
+  src: url("./assets/Comic_Neue/ComicNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family:'Pacifico' ;
+    src: url('./assets//Pacifico//Pacifico-Regular.ttf');
+}
+
+body {
+  background-color: #2a1468;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  margin: 30px 0;
+  padding: 10px 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.letters {
+  width: 100%;
+}
+
+.letters p {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.dancing {
+    font-family: 'Dancing'; 
+}
+
+.neue {
+    font-family: 'Neue';
+}
+
+.pacifico {
+    font-family: 'pacifico';
+}
+
+.letters p:hover {
+    text-shadow: 0 0 14px #6beaee;
+}
+
+.lorem {
+  width: 100%;
+  color: #11e011;
+
+}

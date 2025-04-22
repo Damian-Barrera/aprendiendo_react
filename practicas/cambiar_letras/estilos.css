@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 2rem;
+  color: #420000;
+}
+
+.letter-container {
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.letters {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.letters p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #616161;
+  cursor: pointer;
+}
+
+.letters p:nth-child(1) {
+  font-family: "Courier New";
+}
+.letters p:nth-child(2) {
+  font-family: monospace;
+}
+.letters p:nth-child(3) {
+  font-family:  Times;
+}
+
+.letters p:hover {
+  color: #440b0b;
+  text-shadow: 0 0 10px #531818;
+}
+
+.lorem {
+  color: #744a96;
+  font-weight: bold;
+}
