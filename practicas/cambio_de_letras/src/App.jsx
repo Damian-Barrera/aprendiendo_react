@@ -11,6 +11,8 @@ function App() {
     setFont(e.target.innerText.toLowerCase())
   }
 
+  
+
   return (
 
     <>
@@ -21,7 +23,7 @@ function App() {
           <p onClick={changeFont}>Neue</p>
           <p onClick={changeFont}> Pacifico</p>
         </div>
-        <div className= {` lorem ${font} `}  >
+        <div className={` lorem ${font} `}  >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, soluta.
         </div>
       </div>
